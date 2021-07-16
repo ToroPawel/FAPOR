@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway-Bold.ttf') format('truetype'),
+    url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold.eot');
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Semibold.woff') format('woff'),
+    url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+    url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: 600;
+font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #24282f;
+    padding-top: 30px ;
+}
+.container{
+    max-width: 1095px;
+    margin: auto;
+}
+.d-flex{
+    justify-content: space-between;
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav ul li{
+    margin-left: 24px;
+}
+header nav ul li a{
+    color: #d3d4d5;
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+header nav ul li:hover:after{
+    background-color: #b5a263;
+    width: 100%;
+}
+header nav ul li:after{
+    display: block;
+    transition: 0.4s;
+    width: 0%;
+    content: "";
+    height: 2px;
+    background-color: transparent;
+    margin-top: 33px;
+}
+.container_2{
+    padding-top: 226px ;
+    margin: auto;
+}
+ h1{
+    font-family: Raleway;
+    color: #d3d4d5;
+    font-size: 32px;
+     padding-top: 73px;
+     font-weight: bold;
+}
+ p{
+     font-size: 24px;
+     font-family: 'Qahiri', sans-serif;
+     color: #d3d4d5
+
+ }
+ .btn_soc{
+     display: inline-block;
+     width: 27px;
+     height: 27px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 27px;
+     border: solid 1px #b5a263;
+     margin-left: 8px;
+     transition: 0.3s;
+     background-color: #24282f;
+ }
+ footer .btn_soc:hover{
+     color: #6e7279;
+     border: solid 1px #b5a263;
+ }
+ footer.btn_soc:hover i{
+     color: white;
+
+ }
